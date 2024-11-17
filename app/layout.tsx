@@ -1,14 +1,8 @@
 import './globals.css'
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { CartProvider } from './contexts/CartContext'
 
 const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: 'Casablanca E-commerce',
-  description: 'Luxury fashion e-commerce store',
-}
 
 export default function RootLayout({
   children,
@@ -17,10 +11,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Casablanca E-commerce</title>
+        <meta name="description" content="Luxury fashion e-commerce store" />
+      </head>
       <body className={inter.className}>
-        <CartProvider>
-          {children}
-        </CartProvider>
+        <CartProvider>{children}</CartProvider>
       </body>
     </html>
   )
