@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
-            <p className="text-sm">CASA BLANCA is a premium fashion brand offering stylish and comfortable clothing for all occasions.</p>
+            <p className="text-sm">xian lee is a premium fashion brand offering stylish and comfortable clothing for all occasions.</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -19,12 +19,12 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p className="text-sm">Email: info@casablanca.com</p>
+            <p className="text-sm">Email: info@xianlee.com</p>
             <p className="text-sm">Phone: +1 (123) 456-7890</p>
           </div>
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 text-center">
-          <p className="text-sm">&copy; 2024 CASA BLANCA. All rights reserved.</p>
+          <p className="text-sm">&copy; 2024 xian lee. All rights reserved.</p>
         </div>
       </div>
     </footer>

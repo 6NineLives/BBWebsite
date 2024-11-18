@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-gray-800">CASA BLANCA</Link>
+            <Link href="/" className="text-2xl font-bold text-gray-800">xian lee</Link>
           </div>
           <div className="flex-1 max-w-md mx-4">
             <form onSubmit={handleSearch} className="relative">

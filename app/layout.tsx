@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Casablanca E-commerce</title>
+        <title>xianlee E-commerce</title>
         <meta name="description" content="Luxury fashion e-commerce store" />
       </head>
       <body className={inter.className}>
