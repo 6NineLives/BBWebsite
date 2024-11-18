@@ -16,7 +16,7 @@ const products = [
 ];
 
 export default function ProductPage() {
-  const [product, setProduct] = useState<any>(null);
+  const [product, setProduct] = useState<{ id: number; name: string; image: string; price: number; description: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const { addToCart } = useCart();
   const params = useParams();

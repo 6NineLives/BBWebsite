@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import ProductCard from './components/ProductCard';
 import Footer from './components/Footer';
-import Image from 'next/image';
 
 const products = [
   { id: 1, name: "Black and White Gradient Jacket", image: "https://storage.googleapis.com/a1aa/image/GHBIHU9AJ04RI5RduxR5eeRqXAxE81XqLuOXDQingH0fhBknA.jpg", price: 299.99, category: "jackets" },
