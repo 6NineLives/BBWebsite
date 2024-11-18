@@ -6,11 +6,12 @@ import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
 
 const products = [
-  { id: 1, name: "Black and White Gradient Jacket", image: "https://storage.googleapis.com/a1aa/image/GHBIHU9AJ04RI5RduxR5eeRqXAxE81XqLuOXDQingH0fhBknA.jpg", price: 299.99 },
-  { id: 2, name: "Black and White Gradient Shorts", image: "https://storage.googleapis.com/a1aa/image/O6HSDKdsHBrLLVfTKtkIr0skeel0uYx5ponxy6vfDzUEEDIPB.jpg", price: 149.99 },
-  { id: 3, name: "Red Jacket", image: "https://storage.googleapis.com/a1aa/image/JGqShpMF0lLaKh8uaCbPfxHGvqd88KewN1s6jbbZMmdAxAyTA.jpg", price: 279.99 },
-  { id: 4, name: "Red Pants", image: "https://storage.googleapis.com/a1aa/image/Px5jZrLbViaiORPgBb0egZYrYrM8BU4kMl8qJ4xXD06ewAyTA.jpg", price: 199.99 },
+  { id: 1, name: "Black and White Gradient Jacket", video: "https://i.imgur.com/9Cw6B1y.mp4", price: 299.99, description: "A stylish black and white gradient jacket perfect for any occasion." },
+  { id: 2, name: "Black and White Gradient Shorts", video: "https://i.imgur.com/9Cw6B1y.mp4", price: 149.99, description: "Comfortable black and white gradient shorts to complete your look." },
+  { id: 3, name: "Red Jacket", video: "https://i.imgur.com/9Cw6B1y.mp4", price: 279.99, description: "A vibrant red jacket that stands out in any crowd." },
+  { id: 4, name: "Red Pants", video: "https://i.imgur.com/9Cw6B1y.mp4", price: 199.99, description: "Sleek red pants that pair perfectly with our red jacket." },
 ];
+
 
 export default function SearchPage() {
   const searchParams = useSearchParams();
