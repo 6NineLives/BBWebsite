@@ -24,7 +24,7 @@ export default function SearchPage() {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-8">Search Results for "{query}";</h1>
+        <h1 className="text-3xl font-bold mb-8">Search Results for Search Results for "{query}";quot;{query}Search Results for "{query}";quot;</h1>
         {filteredProducts.length === 0 ? (
           <p>No products found matching your search.</p>
         ) : (
